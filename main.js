@@ -1,5 +1,5 @@
 const net = require('net'); // Módulo node para server TCP
-const { start } = require('repl');
+// const { start } = require('repl');
 
 // =================== VARIAVEIS GLOBAIS =======================
 const ip = '127.0.0.1';
@@ -266,8 +266,6 @@ function handleQuit(message) {
         document.getElementById("gameScreen").style.display = 'none'
     }
 }
-
-
 
 // Envia a resposta para o servidor ao clicar em algum dos botões com opção de resposta
 document.addEventListener('click', function (event) {

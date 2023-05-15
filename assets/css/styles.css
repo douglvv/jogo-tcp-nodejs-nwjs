@@ -32,6 +32,31 @@ body {
     display: none;
 }
 
+.btn-primary{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover{
+    background-color: #45a049;
+}
+
+.btn-primary:disabled{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor:not-allowed;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
 .menu button {
     margin: 0 10px;
     padding: 12px 24px;
