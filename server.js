@@ -94,7 +94,7 @@ function handleConnection(socket) {
  */
 function createGame(socket) {
     const gameId = guid()
-    games[gameId] = { id: gameId, quotesLeft: 2, quote: {}, clients: [] } // Cria um jogo e armazena na array de games | Inicia com valores padrão
+    games[gameId] = { id: gameId, quotesLeft: 20, quote: {}, clients: [] } // Cria um jogo e armazena na array de games | Inicia com valores padrão
 
     const response = { type: 'create', game: games[gameId] }
     socket.write(JSON.stringify(response))
