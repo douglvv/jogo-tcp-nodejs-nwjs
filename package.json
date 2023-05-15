@@ -1,0 +1,27 @@
+{
+  "name": "tcp-game-node-nw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "window": {
+    "width": 800,
+    "height": 600,
+    "fullscreen": false,
+    "resizable": false,
+    "position": "center",
+    "single-instance": false
+  },
+  "scripts": {
+    "start": "nw .",
+    "start2": "nw . --user-data-dir=/workspace/nwjs-v0.75.1-win-x64"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "net": "^1.0.2",
+    "nw": "^0.76.0",
+    "uuid": "^9.0.0"
+  }
+}

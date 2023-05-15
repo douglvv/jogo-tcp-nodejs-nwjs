@@ -1,0 +1,59 @@
+* {
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Breaking Bad', sans-serif;
+    color: white;
+}
+
+.menu {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* #turnInfo {
+    color: white;
+} */
+
+#quote {
+    color: black;
+}
+
+#afterFinish {
+    display: none;
+}
+
+.menu button {
+    margin: 0 10px;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.menu button:hover {
+    background-color: #45a049;
+}
+
+#gameScreen {
+    display: none;
+}
+
+@font-face {
+    font-family: 'Breaking Bad';
+    src: url(../fonts/Heart\ Breaking\ Bad.otf);
+}
